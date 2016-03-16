@@ -1,14 +1,9 @@
 weather-header {
     box-shadow: 0 1px 5px rgba(0,0,0,0.3);
-    padding: 10px 35px;
+    padding: 10px 15px;
     background: #1194F6;
     margin-bottom: 10px;
     display: block;
-}
-
-weather-header .header-content {
-    max-width: 1275px;
-    margin: 0 auto;
 }
 
 weather-header h1 {
