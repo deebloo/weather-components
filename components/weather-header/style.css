@@ -1,0 +1,45 @@
+weather-header {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    padding: 10px 35px;
+    background: #1194F6;
+    margin-bottom: 10px;
+    display: block;
+}
+
+weather-header .header-content {
+    max-width: 1275px;
+    margin: 0 auto;
+}
+
+weather-header h1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+weather-header search-weather {
+    float: right;
+    margin-top: 15px;
+    width: 25%;
+}
+
+weather-header .error-message {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 800px) {
+    weather-header h1 {
+        display: block;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    weather-header search-weather {
+        float: none;
+        margin-bottom: 15px;
+        width: 100%;
+        display: block;
+    }
+}

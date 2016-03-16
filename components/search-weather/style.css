@@ -1,0 +1,8 @@
+search-weather input {
+    padding: 5px 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px lightgray;
+}

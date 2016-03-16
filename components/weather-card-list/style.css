@@ -1,0 +1,27 @@
+weather-card-list {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: block;    
+}
+
+weather-card-list .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+weather-card-list weather-card {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+
+weather-card-list weather-card:first-child {
+    flex-grow: 3;
+}
+
+@media (max-width: 800px) {
+    weather-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
