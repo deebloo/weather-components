@@ -23,6 +23,7 @@
     "moment": "^2.12.0",
     "nanoajax": "^0.4.3",
     "redux": "^3.3.1",
-    "superagent": "^1.8.1"
+    "superagent": "^1.8.1",
+    "webcomponentsjs": "^1.0.2"
   }
 }
