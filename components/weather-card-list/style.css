@@ -5,6 +5,7 @@ weather-card-list {
 weather-card-list .list {
     display: flex;
     flex-wrap: wrap;
+        margin: 0 10px;
 }
 
 weather-card-list weather-card {
