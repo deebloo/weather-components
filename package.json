@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run webpack",
-    "webpack": "./node_modules/.bin/gulp",
+    "webpack": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
